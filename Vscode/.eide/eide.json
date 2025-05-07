@@ -1,0 +1,501 @@
+{
+  "name": "Project",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Start",
+        "files": [
+          {
+            "path": "../Start/startup_stm32f10x_md.s"
+          },
+          {
+            "path": "../Start/core_cm3.c"
+          },
+          {
+            "path": "../Start/core_cm3.h"
+          },
+          {
+            "path": "../Start/stm32f10x.h"
+          },
+          {
+            "path": "../Start/system_stm32f10x.c"
+          },
+          {
+            "path": "../Start/system_stm32f10x.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Library",
+        "files": [
+          {
+            "path": "../Library/misc.c"
+          },
+          {
+            "path": "../Library/misc.h"
+          },
+          {
+            "path": "../Library/stm32f10x_adc.c"
+          },
+          {
+            "path": "../Library/stm32f10x_adc.h"
+          },
+          {
+            "path": "../Library/stm32f10x_bkp.c"
+          },
+          {
+            "path": "../Library/stm32f10x_bkp.h"
+          },
+          {
+            "path": "../Library/stm32f10x_can.c"
+          },
+          {
+            "path": "../Library/stm32f10x_can.h"
+          },
+          {
+            "path": "../Library/stm32f10x_cec.c"
+          },
+          {
+            "path": "../Library/stm32f10x_cec.h"
+          },
+          {
+            "path": "../Library/stm32f10x_crc.c"
+          },
+          {
+            "path": "../Library/stm32f10x_crc.h"
+          },
+          {
+            "path": "../Library/stm32f10x_dac.c"
+          },
+          {
+            "path": "../Library/stm32f10x_dac.h"
+          },
+          {
+            "path": "../Library/stm32f10x_dbgmcu.c"
+          },
+          {
+            "path": "../Library/stm32f10x_dbgmcu.h"
+          },
+          {
+            "path": "../Library/stm32f10x_dma.c"
+          },
+          {
+            "path": "../Library/stm32f10x_dma.h"
+          },
+          {
+            "path": "../Library/stm32f10x_exti.c"
+          },
+          {
+            "path": "../Library/stm32f10x_exti.h"
+          },
+          {
+            "path": "../Library/stm32f10x_flash.c"
+          },
+          {
+            "path": "../Library/stm32f10x_flash.h"
+          },
+          {
+            "path": "../Library/stm32f10x_fsmc.c"
+          },
+          {
+            "path": "../Library/stm32f10x_fsmc.h"
+          },
+          {
+            "path": "../Library/stm32f10x_gpio.c"
+          },
+          {
+            "path": "../Library/stm32f10x_gpio.h"
+          },
+          {
+            "path": "../Library/stm32f10x_i2c.c"
+          },
+          {
+            "path": "../Library/stm32f10x_i2c.h"
+          },
+          {
+            "path": "../Library/stm32f10x_iwdg.c"
+          },
+          {
+            "path": "../Library/stm32f10x_iwdg.h"
+          },
+          {
+            "path": "../Library/stm32f10x_pwr.c"
+          },
+          {
+            "path": "../Library/stm32f10x_pwr.h"
+          },
+          {
+            "path": "../Library/stm32f10x_rcc.c"
+          },
+          {
+            "path": "../Library/stm32f10x_rcc.h"
+          },
+          {
+            "path": "../Library/stm32f10x_rtc.c"
+          },
+          {
+            "path": "../Library/stm32f10x_rtc.h"
+          },
+          {
+            "path": "../Library/stm32f10x_sdio.c"
+          },
+          {
+            "path": "../Library/stm32f10x_sdio.h"
+          },
+          {
+            "path": "../Library/stm32f10x_spi.c"
+          },
+          {
+            "path": "../Library/stm32f10x_spi.h"
+          },
+          {
+            "path": "../Library/stm32f10x_tim.c"
+          },
+          {
+            "path": "../Library/stm32f10x_tim.h"
+          },
+          {
+            "path": "../Library/stm32f10x_usart.c"
+          },
+          {
+            "path": "../Library/stm32f10x_usart.h"
+          },
+          {
+            "path": "../Library/stm32f10x_wwdg.c"
+          },
+          {
+            "path": "../Library/stm32f10x_wwdg.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "User",
+        "files": [
+          {
+            "path": "../User/main.c"
+          },
+          {
+            "path": "../User/stm32f10x_conf.h"
+          },
+          {
+            "path": "../User/stm32f10x_it.c"
+          },
+          {
+            "path": "../User/stm32f10x_it.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "NETWork",
+        "files": [
+          {
+            "path": "../Network/device/esp8266.c"
+          },
+          {
+            "path": "../Network/MQTT/MqttKit.c"
+          },
+          {
+            "path": "../Network/onenet/base64.c"
+          },
+          {
+            "path": "../Network/onenet/hmac_sha1.c"
+          },
+          {
+            "path": "../Network/onenet/onenet.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "sys",
+        "files": [
+          {
+            "path": "../sys/Delay.c"
+          },
+          {
+            "path": "../sys/USART.c"
+          },
+          {
+            "path": "../sys/Delay.h"
+          },
+          {
+            "path": "../sys/sys.c"
+          },
+          {
+            "path": "../sys/sys.h"
+          },
+          {
+            "path": "../sys/USART.h"
+          },
+          {
+            "path": "../sys/adc.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "HardWare",
+        "files": [
+          {
+            "path": "../HardWare/dht11.c"
+          },
+          {
+            "path": "../HardWare/oled.c"
+          },
+          {
+            "path": "../HardWare/mq.c"
+          },
+          {
+            "path": "../HardWare/bmp.h"
+          },
+          {
+            "path": "../HardWare/Camera.c"
+          },
+          {
+            "path": "../HardWare/Camera.h"
+          },
+          {
+            "path": "../HardWare/Camera_usart.c"
+          },
+          {
+            "path": "../HardWare/Camera_usart.h"
+          },
+          {
+            "path": "../HardWare/Car.c"
+          },
+          {
+            "path": "../HardWare/Car.h"
+          },
+          {
+            "path": "../HardWare/dht11.h"
+          },
+          {
+            "path": "../HardWare/GPS_usart.c"
+          },
+          {
+            "path": "../HardWare/GPS_usart.h"
+          },
+          {
+            "path": "../HardWare/HCSR04.c"
+          },
+          {
+            "path": "../HardWare/HCSR04.h"
+          },
+          {
+            "path": "../HardWare/LinkFllow.c"
+          },
+          {
+            "path": "../HardWare/LinkFllow.h"
+          },
+          {
+            "path": "../HardWare/Motor.c"
+          },
+          {
+            "path": "../HardWare/Motor.h"
+          },
+          {
+            "path": "../HardWare/mq.h"
+          },
+          {
+            "path": "../HardWare/oled.h"
+          },
+          {
+            "path": "../HardWare/oledfont.h"
+          },
+          {
+            "path": "../HardWare/PWM.c"
+          },
+          {
+            "path": "../HardWare/PWM.h"
+          },
+          {
+            "path": "../HardWare/PWM_Servo.c"
+          },
+          {
+            "path": "../HardWare/PWM_Servo.h"
+          },
+          {
+            "path": "../HardWare/Servo.c"
+          },
+          {
+            "path": "../HardWare/Servo.h"
+          },
+          {
+            "path": "../HardWare/beep.c"
+          },
+          {
+            "path": "../HardWare/beep.h"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": "STM32F103C8",
+  "packDir": ".pack/Keil/STM32F1xx_DFP.2.3.0",
+  "miscInfo": {
+    "uid": "6a70f025e3025651d583ee619d4a17fb"
+  },
+  "targets": {
+    "Target 1": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "useCustomScatterFile": false,
+        "scatterFilePath": "<YOUR_SCATTER_FILE>.sct",
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x5000"
+              },
+              "isChecked": true,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x08000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f1x",
+        "interface": "stlink",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "STLink": {
+          "bin": "",
+          "proType": "SWD",
+          "resetMode": "default",
+          "runAfterProgram": true,
+          "speed": 4000,
+          "address": "0x08000000",
+          "elFile": "None",
+          "optionBytes": ".eide/target 1.st.option.bytes.ini",
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f1x",
+          "interface": "stlink",
+          "baseAddr": "0x08000000"
+        },
+        "pyOCD": {
+          "bin": "",
+          "targetName": "cortex_m",
+          "baseAddr": "0x08000000",
+          "speed": "4M",
+          "config": ".eide/target 1.pyocd.yaml",
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".",
+          "../Start",
+          "../User",
+          "../Library",
+          "../Network/device",
+          "../Network/MQTT",
+          "../Network/onenet",
+          "../sys",
+          "../HardWare",
+          ".cmsis/include",
+          "../RTE/_Target 1"
+        ],
+        "libList": [],
+        "defineList": [
+          "USE_STDPERIPH_DRIVER",
+          "STM32F10X_MD"
+        ]
+      },
+      "builderOptions": {
+        "AC5": {
+          "version": 4,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "use-microLIB": true,
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-0",
+            "one-elf-section-per-function": true,
+            "c99-mode": true,
+            "C_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "CXX_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "warnings": "all-warnings"
+          },
+          "asm-compiler": {},
+          "linker": {
+            "output-format": "elf",
+            "ro-base": "0x08000000",
+            "rw-base": "0x20000000"
+          }
+        },
+        "AC6": {
+          "version": 3,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "use-microLIB": false,
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-0",
+            "language-c": "c99",
+            "language-cpp": "c++11",
+            "link-time-optimization": false
+          },
+          "asm-compiler": {
+            "$use": "asm-auto"
+          },
+          "linker": {
+            "output-format": "elf",
+            "misc-controls": "--diag_suppress=L6329"
+          }
+        }
+      }
+    }
+  },
+  "version": "3.5"
+}
